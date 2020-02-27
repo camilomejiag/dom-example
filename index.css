@@ -14,3 +14,27 @@
     padding: 10px 15px;
     font-size: 15px;
 }
+
+.image {
+    visibility: hidden;
+}
+
+.image--visible {
+    visibility: initial;
+}
+
+.message {
+    visibility: hidden;
+}
+
+.message--visible {
+    visibility: initial;
+}
+
+.success-message {
+    color: green;
+}
+
+.error-message {
+    color: red;
+}
