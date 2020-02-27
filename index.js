@@ -1,8 +1,13 @@
 const buttonEl = document.querySelector('.button-input');
 buttonEl.addEventListener('click', () => {
-    const textToAdd = 'Hello world';
+    const textToAdd = '';
     const inputEl = document.querySelector('.input-text');
     inputEl.value = textToAdd;
+});
+
+const listButtonEl = document.querySelector('.button-list');
+listButtonEl.addEventListener('click', function () {
+    // Code goes here
 });
 
 const passwordEl = document.querySelector('.password');
